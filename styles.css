@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: whitesmoke;
+}
+.container {
+  margin: inherit;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 40px;
+}
+h1,
+h2,
+h3 {
+  padding: 0;
+  margin: 0;
+}
+.absensi_form {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.container h1 {
+  font-weight: 300;
+  text-align: center;
+}
+
+.absensi_form input {
+  height: 40px;
+  padding: 8px;
+  font-family: inherit;
+  font-size: inherit;
+  border-radius: 8px;
+}
+
+.absensi_form button {
+  height: 40px;
+  width: 50%;
+  border: none;
+  outline: none;
+  font-size: inherit;
+  font-family: inherit;
+  background-color: orange;
+  color: white;
+  margin-left: auto;
+  border-radius: 12px;
+}
+#root {
+  margin-top: 40px;
+}
+.card {
+  width: inherit;
+  min-height: 100px;
+  background-color: white;
+  margin-bottom: 20px;
+  box-shadow: 4px 5px 6px rgba(0, 0, 0, 0.184);
+  padding: 16px;
+  border-radius: 12px;
+  position: relative;
+}
+.card p {
+  color: grey;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  margin-block-start: 0;
+}
